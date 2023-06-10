@@ -14,10 +14,16 @@ The Visitor Counting System is a project that utilizes Raspberry Pi, an ultrason
 To set up the Visitor Counting System, you will need the following hardware components:
 
 Raspberry Pi: A single-board computer that will act as the main processing unit.
+![image](https://github.com/ujjwal-saahu/Visitor-Counting-System-/assets/106102738/6205559a-975e-41d4-a79b-3aebf232632e)
+
 
 Ultrasonic Sensor: To detect the presence of visitors and measure the distance.
+![image](https://github.com/ujjwal-saahu/Visitor-Counting-System-/assets/106102738/166ff912-5556-45fd-a3c7-9598b9421703)
+
 
 ESP32: A microcontroller that will communicate with the ultrasonic sensor and send data to the Raspberry Pi.
+![image](https://github.com/ujjwal-saahu/Visitor-Counting-System-/assets/106102738/35a46551-4042-42a1-ac2e-b1472016bc95)
+
 
 Internet Connection: To enable communication between the Raspberry Pi, ESP32, and cloud services.
 
