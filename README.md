@@ -38,6 +38,10 @@ AWS IoT Core: Create an AWS IoT Core Thing and obtain the necessary security cre
 
 Arduino IDE: Install the Arduino IDE to program the ESP32.
 
+## System Architecture
+![image](https://github.com/ujjwal-saahu/Visitor-Counting-System-/assets/106102738/c827a0dd-5df3-4198-9429-66158e5d94c0)
+
+
 ## Usage
 To use the Visitor Counting System:
 
