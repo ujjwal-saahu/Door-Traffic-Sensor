@@ -30,13 +30,13 @@ Internet Connection: To enable communication between the Raspberry Pi, ESP32, an
 ## Software Requirements
 You will also need to install and configure the following software:
 
-Raspbian OS: Install the Raspbian operating system on your Raspberry Pi.
+###Raspbian OS: Install the Raspbian operating system on your Raspberry Pi.
 
-AWS Account: Sign up for an AWS account to utilize cloud services. (In my case we have used AWS Academy Learner Lab)
+###AWS Account: Sign up for an AWS account to utilize cloud services. (In my case we have used AWS Academy Learner Lab)
 
-AWS IoT Core: Create an AWS IoT Core Thing and obtain the necessary security credentials.
+###AWS IoT Core: Create an AWS IoT Core Thing and obtain the necessary security credentials.
 
-Arduino IDE: Install the Arduino IDE to program the ESP32.
+###Arduino IDE: Install the Arduino IDE to program the ESP32.
 
 ## Components
 
