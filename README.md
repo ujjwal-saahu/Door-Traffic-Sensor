@@ -1,4 +1,4 @@
-# Visitor-Counting-System-
+# Visitor-Counting-System
 The Visitor Counting System is a project that utilizes Raspberry Pi, an ultrasonic sensor, ESP32, AWS, Cloud, and Fog computing to count and track the number of visitors in a specific location or area. This system provides real-time visitor counting and enables data analysis and management through cloud and fog computing technologies.
 
 ## Team Members
@@ -38,7 +38,21 @@ AWS IoT Core: Create an AWS IoT Core Thing and obtain the necessary security cre
 
 Arduino IDE: Install the Arduino IDE to program the ESP32.
 
-## System Architecture
+## Components
+
+Ultrasonic Sensor-4pc
+
+ESP32-2pc
+
+PCP-2pc
+
+Raspbarry Pi
+
+Jumpper Wire
+
+Power Adapter
+
+## Circuit Diagram
 ![image](https://github.com/ujjwal-saahu/Visitor-Counting-System-/assets/106102738/c827a0dd-5df3-4198-9429-66158e5d94c0)
 
 
