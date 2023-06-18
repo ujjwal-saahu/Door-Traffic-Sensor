@@ -78,3 +78,5 @@ Reflect the graph data on WIX
 ## Demo Video
 I hope you have enjoyed this article. Lastly, I left you this demo video where you can see in action the complete flow. For this case, I used a real tiime visitor counting, and the sensor data is reflect to the WIX.
 
+https://github.com/ujjwal-saahu/Door-Traffic-Sensor/assets/106102738/ece5a3f0-c143-4a3a-976c-5035e9938b67
+
