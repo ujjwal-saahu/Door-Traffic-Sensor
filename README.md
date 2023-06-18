@@ -1,5 +1,5 @@
-# Visitor-Counting-System
-The Visitor Counting System is a project that utilizes Raspberry Pi, an ultrasonic sensor, ESP32, AWS, Cloud, and Fog computing to count and track the number of visitors in a specific location or area. This system provides real-time visitor counting and enables data analysis and management through cloud and fog computing technologies.
+# Gate-Traffic-Sensor
+The Gate Traffic Sensor is a project that utilizes Raspberry Pi, an ultrasonic sensor, ESP32, AWS, Cloud, and Fog computing to count and track the number of visitors in a specific location or area. This system provides real-time visitor counting and enables data analysis and management through cloud and fog computing technologies.
 
 ## Team Members
 @M11107820 - FELIX GUNAWAN​
@@ -11,7 +11,7 @@ The Visitor Counting System is a project that utilizes Raspberry Pi, an ultrason
 @M11151011 – 柳博凱
 
 ## Hardware Components
-To set up the Visitor Counting System, you will need the following hardware components:
+To set up the Gate Traffic Sensor, you will need the following hardware components:
 
 Raspberry Pi: A single-board computer that will act as the main processing unit.
 ![image](https://github.com/ujjwal-saahu/Visitor-Counting-System-/assets/106102738/6205559a-975e-41d4-a79b-3aebf232632e)
@@ -61,7 +61,7 @@ Power Adapter
 
 
 ## Usage
-To use the Visitor Counting System:
+To use the Gate Traffic Sensor:
 
 Ensure that the Raspberry Pi, ESP32, and cloud services are running and properly connected.
 
@@ -72,3 +72,9 @@ The ESP32 will communicate the visitor count data to the Raspberry Pi.
 The Raspberry Pi will process the data and send it to the AWS Lambda function.
 
 Access the DynamoDB dashboard or retrieve the data programmatically to monitor the visitor count.
+
+Reflect the graph data on WIX 
+
+## Demo Video
+I hope you have enjoyed this article. Lastly, I left you this demo video where you can see in action the complete flow. For this case, I used a real tiime visitor counting, and the sensor data is reflect to the WIX.
+
