@@ -1,6 +1,10 @@
 # Gate-Traffic-Sensor
 The Gate Traffic Sensor is a project that utilizes Raspberry Pi, an ultrasonic sensor, ESP32, AWS, Cloud, and Fog computing to count and track the number of visitors in a specific location or area. This system provides real-time visitor counting and enables data analysis and management through cloud and fog computing technologies.
 
+The ESP32-based people counters (with ultrasonic modules)
+The Raspberry Pi 3 acting as a gateway to Amazon AWS
+The web interface to view the data
+
 ## Team Members
 @M11107820 - FELIX GUNAWAN​
 
@@ -51,6 +55,37 @@ Raspbarry Pi
 Jumpper Wire
 
 Power Adapter
+
+
+## Follow These Steps-
+
+## Step 1: Configure the Raspberry Pi Gateway
+
+The Raspberry Pi will act as a gateway, which is essentially an intermediary device that communicates with the ESP32 devices, collects their data, and uploads it to AWS.
+
+Establish a communication protocol between the Raspberry Pi and the ESP32 devices: We can use MQTT (Message Queuing Telemetry Transport) because that  MQTT is a popular choice for IoT applications due to its lightweight nature, scalability, and flexibility, making it well-suited for communication between Raspberry Pi and ESP32 devices in an IoT ecosystem.
+
+Set up an AWS IoT Core service: This will allow your Raspberry Pi to securely connect to AWS and transmit data. AWS IoT Core supports MQTT, which should align well with your ESP32 devices. You will have to register your Raspberry Pi as a "Thing" in the AWS IoT console, which will allow AWS to recognize and trust it.
+
+Install and configure the AWS IoT SDK on the Raspberry Pi: This will allow your Raspberry Pi to interact with the AWS IoT Core service.
+
+
+## Step 2: Configure the AWS Service
+
+You would need to configure AWS to receive and store the data from your Raspberry Pi.
+
+Set up a DynamoDB table: DynamoDB is a NoSQL database service from AWS that will allow you to store and retrieve the data sent from your Raspberry Pi.
+
+Create an AWS IoT Rule to store data in DynamoDB: AWS IoT Rules allow you to process and act upon data sent to AWS IoT Core. In this case, you would create a rule that takes the data sent from your Raspberry Pi and stores it in your DynamoDB table.
+
+## Step 3: Create the Web Interface
+
+This is where you will view the data.
+
+Use AWS Amplify to create a web app: AWS Amplify is a set of tools and services that enables you to build scalable and secure cloud-powered web applications. You can use it to create a new web app and connect it to your DynamoDB table.
+
+Display data from DynamoDB in your web app: Once your web app is connected to your DynamoDB table, you can query the data and display it in a variety of ways. 
+
 
 ## Circuit Diagram
 ![image](https://github.com/ujjwal-saahu/Visitor-Counting-System-/assets/106102738/c827a0dd-5df3-4198-9429-66158e5d94c0)
