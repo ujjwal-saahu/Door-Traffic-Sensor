@@ -55,6 +55,10 @@ Power Adapter
 ## Circuit Diagram
 ![image](https://github.com/ujjwal-saahu/Visitor-Counting-System-/assets/106102738/c827a0dd-5df3-4198-9429-66158e5d94c0)
 
+## Cloud Architecture
+![image](https://github.com/ujjwal-saahu/Visitor-Counting-System-/assets/106102738/ad6a7102-f9fd-48a8-9104-d83f3730f58c)
+
+
 
 ## Usage
 To use the Visitor Counting System:
