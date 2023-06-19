@@ -51,9 +51,9 @@ Ultrasonic Sensor-4pc
 
 ESP32-2pc
 
-PCP-2pc
+PCB-2pc
 
-Raspbarry Pi
+Raspbarry Pi 3B
 
 Jumpper Wire
 
