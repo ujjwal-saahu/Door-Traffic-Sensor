@@ -2,8 +2,10 @@
 The Gate Traffic Sensor is a project that utilizes Raspberry Pi, an ultrasonic sensor, ESP32, and AWS to count and track the number of visitors in a specific location or area. This system provides real-time visitor counting and enables data analysis and management through cloud and fog computing technologies.
 
 The ESP32-based people counters (with ultrasonic modules)
+
 The Raspberry Pi 3 acting as a gateway to Amazon AWS
-The web interface to view the data
+
+The web interface using WIX to view the Result
 
 ## Team Members
 @M11107820 - FELIX GUNAWAN​
