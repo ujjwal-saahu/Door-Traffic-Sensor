@@ -137,6 +137,15 @@ Access the DynamoDB dashboard or retrieve the data programmatically to monitor t
 
 Reflect the graph data through AWS S3 on WIX 
 
+## Benefits of a Gate traffic system :
+Understanding foot traffic patterns and peak hours.
+
+Evaluating marketing and promotional campaigns.
+
+Optimizing staffing and resource allocation.
+
+Enhancing security and safety measures.
+
 ## Demo Video
 I hope you have enjoyed this article. Lastly, I left you this demo video where you can see in action the complete flow. For this case, I used a real tiime visitor counting, and the sensor data is reflect to the WIX.
 
