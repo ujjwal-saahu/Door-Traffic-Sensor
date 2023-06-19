@@ -42,6 +42,9 @@ You will also need to install and configure the following software:
 
 *Arduino IDE:* Install the Arduino IDE to program the ESP32.
 
+*WIX:* WIX is a user-friendly platform for creating professional websites without coding
+
+
 ## Components
 
 Ultrasonic Sensor-4pc
@@ -108,7 +111,7 @@ The Raspberry Pi will process the data and send it to IoT Core than AWS Lambda f
 
 Access the DynamoDB dashboard or retrieve the data programmatically to monitor the visitor count.
 
-Reflect the graph data on WIX 
+Reflect the graph data through AWS S3 on WIX 
 
 ## Demo Video
 I hope you have enjoyed this article. Lastly, I left you this demo video where you can see in action the complete flow. For this case, I used a real tiime visitor counting, and the sensor data is reflect to the WIX.
