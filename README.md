@@ -104,7 +104,7 @@ The ultrasonic sensor will detect the presence of visitors and measure the dista
 
 The ESP32 will communicate the visitor count data to the Raspberry Pi.
 
-The Raspberry Pi will process the data and send it to the AWS Lambda function.
+The Raspberry Pi will process the data and send it to IoT Core than AWS Lambda function.
 
 Access the DynamoDB dashboard or retrieve the data programmatically to monitor the visitor count.
 
