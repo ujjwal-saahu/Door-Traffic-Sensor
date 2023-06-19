@@ -50,23 +50,23 @@ You will also need to install and configure the following software:
 
 **Raspbian OS:** Install the Raspbian operating system on your Raspberry Pi.
 
-Prepare the SD Card:
+*Prepare the SD Card:*
 
 Insert the SD card into your computer's SD card reader.
 Download the Raspbian OS image from the official Raspberry Pi website.
 Use Etcher or a similar tool to write the Raspbian image to the SD card.
 
-Configure the Raspberry Pi:
+*Configure the Raspberry Pi:*
 
 Connect a keyboard, mouse, and display to the Raspberry Pi.
 Insert the prepared SD card into the Raspberry Pi's SD card slot.
 Connect the power supply to boot up the Raspberry Pi.
 
-Install Raspbian:
+*Install Raspbian:*
 
 Follow the on-screen instructions to complete the initial setup, including language, time zone, password, and Wi-Fi configuration.
 
-Complete the Setup:
+*Complete the Setup:*
 
 After the initial setup, the Raspbian desktop will appear.
 
