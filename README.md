@@ -111,10 +111,7 @@ Create an AWS IoT Rule to store data in DynamoDB: AWS IoT Rules allow you to pro
 ## Step 3: Create the Web Interface
 
 This is where you will view the data.
-
-Use AWS Amplify to create a web app: AWS Amplify is a set of tools and services that enables you to build scalable and secure cloud-powered web applications. You can use it to create a new web app and connect it to your DynamoDB table.
-
-Display data from DynamoDB in your web app: Once your web app is connected to your DynamoDB table, you can query the data and display it in a variety of ways. 
+We create our web interface using wix and display our data in monitor tab. There we can monitor how many people currently in the room 
 
 
 ## Circuit Diagram
